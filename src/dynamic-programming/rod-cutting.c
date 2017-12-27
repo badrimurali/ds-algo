@@ -23,15 +23,6 @@ void memoziedCutRod(int* array, int n) {
 		}
 		r[j] = q;
 	}
-	int k =0, l=0;
-	for(k =0; k<=n; k++) {
-		printf("%d ", r[k]);
-	}
-	printf("\n");
-	for(l =0; l<=n; l++) {
-		printf("%d ", s[l]);
-	}
-	printf("\n");
 	while(n > 0) {
 		printf("%d ", s[n]);
 		n = n - s[n];
